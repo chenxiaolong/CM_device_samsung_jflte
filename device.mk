@@ -32,7 +32,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Expose Irda feature
 PRODUCT_COPY_FILES += \
-    device/samsung/jf-common/etc/com.sec.feature.irda_service.xml:system/etc/permissions/com.sec.feature.irda_service.xml
+    device/samsung/jflte/etc/com.sec.feature.irda_service.xml:system/etc/permissions/com.sec.feature.irda_service.xml
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
